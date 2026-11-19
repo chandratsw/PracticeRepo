@@ -17,7 +17,7 @@ test('Create TypeSafety POST API Request using dynamic api request body in playw
     const totalPrice = faker.number.int({ min: 1000, max: 10000 });
 
     const postAPIRequest = await getPOSTAPIRequestBody(firstName, lastName, totalPrice,
-        true, "breakfast", , "2025-01-27");
+        true, "breakfast","2025-01-25", "2025-01-27");
 
     // Create POST API Request
     const postAPIResponse = await request.post(`/booking`, { data: postAPIRequest });
