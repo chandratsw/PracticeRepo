@@ -5,7 +5,7 @@ import { request } from "node:http";
 test.use({
     baseURL:process.env.BASE_API_URL,
 })
-/* TC1 test dev */
+/* TC1 test dev practice */
 test("Create POST API Request using static file in playwright",async({request})=>
 {
     //create POST API Request
